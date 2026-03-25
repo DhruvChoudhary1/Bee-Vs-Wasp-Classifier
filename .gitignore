@@ -24,3 +24,4 @@ Thumbs.db
 models/bee_model.pth
 .git
 .spyproject/
+.spyproject/config
