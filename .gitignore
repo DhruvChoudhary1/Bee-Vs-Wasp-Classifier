@@ -22,3 +22,5 @@ Thumbs.db
 # Streamlit cache
 .streamlit/
 models/bee_model.pth
+.git
+.spyproject/
