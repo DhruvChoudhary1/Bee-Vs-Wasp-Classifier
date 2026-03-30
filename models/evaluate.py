@@ -7,7 +7,7 @@ import seaborn as sns
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-_, val_loader, classes = get_data_loaders("data")
+_, val_loader, classes = get_data_loaders("./bee-project/data")
 
 model = models.efficientnet_b0(pretrained=False)
 model.classifier[1] = torch.nn.Linear(1280, 2)
